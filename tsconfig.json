@@ -1,0 +1,30 @@
+{
+  "compilerOptions": {
+    "allowSyntheticDefaultImports": true,
+    "declaration": true,
+    "forceConsistentCasingInFileNames": true,
+    "jsx": "react",
+    "lib": ["dom", "es6"],
+    "module": "commonjs",
+    "noEmitOnError": true,
+    "moduleResolution": "node",
+    "noImplicitAny": true,
+    "noImplicitReturns": true,
+    "noImplicitThis": true,
+    "outDir": "dist",
+    "pretty": true,
+    "rootDir": "src",
+    "sourceMap": false,
+    "strict": true,
+    "strictFunctionTypes": true,
+    "target": "es2015"
+  },
+  "exclude": [
+    "node_modules",
+    "dist",
+    "scripts",
+    "webpack",
+    "jest",
+    "src/setupTests.ts"
+  ]
+}
